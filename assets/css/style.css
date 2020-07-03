@@ -1,3 +1,11 @@
+h4 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: auto;
+}
 
 img{
     max-width: 100%;
@@ -10,9 +18,32 @@ footer{
     background-color: #666666;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 16px 10px;
+    text-decoration: none;
+}
+
+
+
 .font-head{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
+}
+
+a:hover{
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
 
 .font-text{
@@ -87,4 +118,54 @@ footer{
     padding-top: 10px;
     text-align: center;
     color: #ffffff;
+}
+
+.box {
+    margin: 20px;
+}
+
+.sector {
+    width: 160px;
+    height: auto;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0px;
+    border: none;
+}
+
+.sector:focus{
+    color: black;
+    background-color: white;
+}
+
+.full {
+    width: 100%;
+    font-size: large;
+    padding: 5px;
+}
+
+.img-box{
+    width: 300px;
+    height: 250px;
+    background-color: green;
+    margin: 30px;
+    display: inline-block;
+    padding: 1px;
+}
+
+.simon-says {
+    background-image: url("../images/simon.jpg");
+    background-size: cover;
+}
+
+.mips {
+    background-image: url("../images/mips.png");
+    background-size: cover;
+}
+
+.robot {
+    background-image: url("../images/baxter.jpg");
+    background-size: cover;
 }
