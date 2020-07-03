@@ -2,9 +2,8 @@ h4 {
     background-color: #4aaaa5;
     color: #ffffff;
     height: 40px;
-    text-align: center;
     padding-top: 10px;
-    margin-top: auto;
+    text-align: center;
 }
 
 img{
@@ -152,7 +151,7 @@ a:hover{
     background-color: green;
     margin: 30px;
     display: inline-block;
-    padding: 1px;
+    position: relative;
 }
 
 .simon-says {
@@ -168,4 +167,11 @@ a:hover{
 .robot {
     background-image: url("../images/baxter.jpg");
     background-size: cover;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
